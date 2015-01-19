@@ -24,7 +24,9 @@ int main(){
       int begin,end;
       begin = intervalos[i].second;
       end = intervalos[i].first;
-      if(begin>=last) total++,last=end;
+      
+      if(begin>=last) 
+        total++,last=end;
     }
     
     printf("%d\n",total);
