@@ -72,7 +72,8 @@ int main(){
         M--;
         if((long long)ceil(dist(nodo_1,nodo_2))>R)
           costo_especial+=precio;
-        else costo_regular+=precio;
+        else 
+          costo_regular+=precio;
       }
       
     }
